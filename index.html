@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Small Library Web App
+    </title>
+    <link rel="stylesheet" href='index.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>The "small" library 📚</h1>
+    </header>
+
+    <main>
+      <div class='toolbar'>
+        <button class='primary' id='add-book'>Add book</button>
+      </div>
+      <div id='books-cards-wrapper'>
+
+      </div>
+    </main>
+
+    <footer>
+      Developed by: <a href='https://github.com/diogofcmartins/'>diogofcmartins</a> 🚀
+    </footer>
+
+    <div class="overlay" id="popupOverlay">
+      <div class="popup">
+          <h2>Add book</h2>
+          <form id="add-book-form">
+              <input type="text" placeholder="Title" id="book-title" required>
+              <input type="text" placeholder="Author" id="book-author" required>
+              <input type="number" placeholder="Pages" id="book-pages" required>
+              <p>
+                Read status:
+                <label class="switch">
+                  <input type="checkbox" id="book-status">
+                  <span class="slider round"></span>
+                </label>
+              </p>
+              <button type="submit" class="btn btn-open">Enviar</button>
+          </form>
+      </div>
+    </div>
+    <script type='text/javascript' src='index.js'></script>
+  </body>
+</html>
