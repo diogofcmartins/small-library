@@ -1,5 +1,7 @@
 # The "small" library 📚
 
+Github page: https://diogofcmartins.github.io/small-library/
+
 ## Description
 
 This project is a simple Library App that allows users to add, view, and manage their book collection using JavaScript. The application provides functionality to add books, remove books, and toggle the read status of a book. Books are stored in an array and displayed dynamically on the webpage.
